@@ -1,2 +1,49 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/x6X7wJcH)
-TODO: Fill this out with details about how to run your app!
+## Pizza Validator (TypeScript + Zod)
+
+Validate pizza objects using Zod, with a CLI for validating JSON files.
+
+### Install
+
+Local path install (for testing in another project):
+
+```bash
+npm install ../pizza-validator-zod
+```
+
+Global install to use CLI:
+
+```bash
+npm install --global .
+```
+
+### Usage as a dependency
+
+```ts
+import { validatePizza } from 'pizza-validator-zod';
+
+const result = validatePizza({ size: 12, crust: 'normal' });
+if (result.isPizza) console.log(result.pizza.crust);
+else console.log(result.errors);
+```
+
+### CLI usage
+
+```bash
+# After global install
+pizza-validate --file ./test-pizza.json
+```
+
+If valid, prints the normalized pizza; otherwise, lists specific reasons.
+
+### Development
+
+```bash
+npm run build
+npm test
+npm run lint
+npm run format
+```
+
+### License
+
+ISC

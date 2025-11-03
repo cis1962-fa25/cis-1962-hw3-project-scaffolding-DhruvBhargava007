@@ -1,0 +1,38 @@
+0 verbose cli /Users/Ambikabhargava/.nvm/versions/node/v20.19.0/bin/node /Users/Ambikabhargava/.nvm/versions/node/v20.19.0/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.0
+3 silly config load:file:/Users/Ambikabhargava/.nvm/versions/node/v20.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/Ambikabhargava/Library/Mobile Documents/com~apple~CloudDocs/iCloud Drive (Archive)/Documents/Classes/Junior/Fall/JS/cis-1962-hw3-project-scaffolding-DhruvBhargava007/.npmrc
+5 silly config load:file:/Users/Ambikabhargava/.npmrc
+6 silly config load:file:/Users/Ambikabhargava/.nvm/versions/node/v20.19.0/etc/npmrc
+7 verbose title npm install zod
+8 verbose argv "install" "zod"
+9 verbose logfile logs-max:10 dir:/Users/Ambikabhargava/Library/Mobile Documents/com~apple~CloudDocs/iCloud Drive (Archive)/Documents/Classes/Junior/Fall/JS/cis-1962-hw3-project-scaffolding-DhruvBhargava007/.npm-cache/_logs/2025-11-03T20_15_54_007Z-
+10 verbose logfile /Users/Ambikabhargava/Library/Mobile Documents/com~apple~CloudDocs/iCloud Drive (Archive)/Documents/Classes/Junior/Fall/JS/cis-1962-hw3-project-scaffolding-DhruvBhargava007/.npm-cache/_logs/2025-11-03T20_15_54_007Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile done cleaning log files
+13 silly idealTree buildDeps
+14 silly fetch manifest zod@*
+15 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/npm 458ms
+17 http fetch GET 200 https://registry.npmjs.org/zod 456ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/zod set size:undefined disposed:false
+19 silly placeDep ROOT zod@4.1.12 OK for: pizza-validator-zod@0.1.0 want: *
+20 silly reify moves {}
+21 silly audit bulk request { zod: [ '4.1.12' ] }
+22 silly tarball no local data for zod@https://registry.npmjs.org/zod/-/zod-4.1.12.tgz. Extracting by manifest.
+23 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 161ms
+24 silly audit report {}
+25 http fetch GET 200 https://registry.npmjs.org/zod/-/zod-4.1.12.tgz 173ms (cache miss)
+26 silly ADD node_modules/zod
+27 verbose cwd /Users/Ambikabhargava/Library/Mobile Documents/com~apple~CloudDocs/iCloud Drive (Archive)/Documents/Classes/Junior/Fall/JS/cis-1962-hw3-project-scaffolding-DhruvBhargava007
+28 verbose os Darwin 24.4.0
+29 verbose node v20.19.0
+30 verbose npm  v10.8.2
+31 notice
+31 notice New major version of npm available! 10.8.2 -> 11.6.2
+31 notice Changelog: https://github.com/npm/cli/releases/tag/v11.6.2
+31 notice To update run: npm install -g npm@11.6.2
+31 notice  { force: true, [Symbol(proc-log.meta)]: true }
+32 verbose exit 0
+33 info ok
