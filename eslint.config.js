@@ -24,4 +24,10 @@ export default [
       'prettier/prettier': 'error',
     },
   },
+  {
+    files: ['**/cli.ts'],
+    rules: {
+      'no-console': 'off',
+    },
+  },
 ];

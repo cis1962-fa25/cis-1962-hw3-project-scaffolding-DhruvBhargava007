@@ -2,7 +2,7 @@
   "name": "pizza-validator-zod",
   "version": "0.1.0",
   "description": "TypeScript + Zod pizza validation package with CLI",
-  "author": "Ambika Bhargava",
+  "author": "Dhruv Bhargava",
   "license": "ISC",
   "type": "module",
   "main": "dist/index.js",

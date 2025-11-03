@@ -7,3 +7,5 @@ coverage
 .npm-cache/
 .npmrc
 
+info.md
+RUBRIC_VERIFICATION.md
